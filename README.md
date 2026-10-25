@@ -17,7 +17,7 @@
 
 ## 下载安装
 
-在 [Releases](https://github.com/xlc0007/ai-together/releases/latest) 页面下载最新的 `AI群聊_x.x.x_x64-setup.exe`，双击安装（简体中文界面，自动安装 WebView2 运行时，无需管理员权限）。
+在 [Releases](https://github.com/xlc0007/ai-together/releases/latest) 页面下载最新的 `AI-groupchat_0.4.6_x64-setup.exe`，双击安装（简体中文界面，自动安装 WebView2 运行时，无需管理员权限）。
 
 > 早期版本也可在下方文件列表点击 `AI群聊_0.1.1_x64-setup.exe` → 右上角 **Download raw file**。
 
