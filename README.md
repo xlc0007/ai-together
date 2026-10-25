@@ -18,7 +18,7 @@
 
 ## 下载安装
 
-在 [Releases](https://github.com/xlc0007/ai-together/releases/latest) 页面下载最新的 `AI-groupchat_0.5.0_x64-setup.exe`，双击安装（简体中文界面，自动安装 WebView2 运行时，无需管理员权限）。
+在 [Releases](https://github.com/xlc0007/ai-together/releases/latest) 页面下载最新的 `AI-groupchat_0.5.1_x64-setup.exe`，双击安装（简体中文界面，自动安装 WebView2 运行时，无需管理员权限）。
 
 > 早期版本也可在下方文件列表点击 `AI群聊_0.1.1_x64-setup.exe` → 右上角 **Download raw file**。
 
@@ -54,6 +54,7 @@
 
 | 版本 | 说明 |
 | --- | --- |
+| [0.5.1](https://github.com/xlc0007/ai-together/releases/tag/v0.5.1) | 群管理入口由 `＋` 改为「管理」按钮，群记忆更好找 |
 | [0.5.0](https://github.com/xlc0007/ai-together/releases/tag/v0.5.0) | 群记忆（早期结论摘要）；历史归属标注（区分「我说的」和「别人说的」），减少成员把别人的任务当成自己的 |
 | [0.4.6](https://github.com/xlc0007/ai-together/releases/tag/v0.4.6) | MCP 工具接入（Streamable HTTP，逐工具授权）；联网搜索；附件；真实服务器互通修复 |
 | 0.4.0 – 0.4.5 | M8 迭代：工具协议与 agent loop、搜索服务、MCP 客户端与授权 UI、真实链路验收修复 |
