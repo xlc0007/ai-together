@@ -12,13 +12,14 @@
 - 🔍 **联网搜索**：接入 Tavily 等搜索服务，成员可自主调用 `web_search`，回复附来源列表；消息以「搜索：xxx」开头可强制先搜再答
 - 🔌 **MCP 工具**：接入 MCP（Model Context Protocol）服务器，让成员能调用外部工具。逐工具授权、必须填写用途说明、服务器改动工具会自动失效授权
 - 🧠 **群记忆**：群聊变长后早期结论会被上下文裁掉，可一键生成摘要沉淀下来；摘要按外部数据对待，其中的指令不会被执行
+- 📤 **对话导出**：一键导出为 Markdown，含工具调用记录、搜索来源与附件信息
 - 📎 **附件**：选取文本文件随消息发送，内容仅注入本轮，不写入数据库
 - 🌗 **深色主题**：浅色 / 深色 / 跟随系统
 - 🔒 **本地存储**：聊天记录和 API Key 都只存在你自己电脑的 SQLite 里
 
 ## 下载安装
 
-在 [Releases](https://github.com/xlc0007/ai-together/releases/latest) 页面下载最新的 `AI-groupchat_0.5.1_x64-setup.exe`，双击安装（简体中文界面，自动安装 WebView2 运行时，无需管理员权限）。
+在 [Releases](https://github.com/xlc0007/ai-together/releases/latest) 页面下载最新的 `AI-groupchat_0.5.2_x64-setup.exe`，双击安装（简体中文界面，自动安装 WebView2 运行时，无需管理员权限）。
 
 > 早期版本也可在下方文件列表点击 `AI群聊_0.1.1_x64-setup.exe` → 右上角 **Download raw file**。
 
@@ -54,6 +55,7 @@
 
 | 版本 | 说明 |
 | --- | --- |
+| [0.5.2](https://github.com/xlc0007/ai-together/releases/tag/v0.5.2) | 对话导出为 Markdown（含工具调用、搜索来源、附件信息） |
 | [0.5.1](https://github.com/xlc0007/ai-together/releases/tag/v0.5.1) | 群管理入口由 `＋` 改为「管理」按钮，群记忆更好找 |
 | [0.5.0](https://github.com/xlc0007/ai-together/releases/tag/v0.5.0) | 群记忆（早期结论摘要）；历史归属标注（区分「我说的」和「别人说的」），减少成员把别人的任务当成自己的 |
 | [0.4.6](https://github.com/xlc0007/ai-together/releases/tag/v0.4.6) | MCP 工具接入（Streamable HTTP，逐工具授权）；联网搜索；附件；真实服务器互通修复 |
